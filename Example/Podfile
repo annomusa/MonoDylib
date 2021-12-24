@@ -4,7 +4,7 @@ platform :ios, '11.0'
 
 target 'MonoDylib_Example' do
 
-  pod 'MonoDylib/Marketplace', :path => '../'
+  pod 'MonoDylib/Marketplace', :podspec => '../', :tag => '0.1.0'
 
   target 'MonoDylib_Tests' do
     inherit! :search_paths

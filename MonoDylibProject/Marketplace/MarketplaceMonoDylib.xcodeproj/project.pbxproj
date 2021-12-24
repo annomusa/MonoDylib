@@ -12,8 +12,8 @@
 		483A51E8268AA24700816CD3 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 483A51E7268AA24700816CD3 /* ObjectMapper */; };
 		485BCA9926788F3600A8AB7D /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 485BCA9826788F3600A8AB7D /* Swinject */; };
 		48AA798026273B7600E135A9 /* MarketplaceMonoDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AA797E26273B7600E135A9 /* MarketplaceMonoDylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48AA82DB2627DBB300E135A9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48AA82DA2627DBB300E135A9 /* IQKeyboardManagerSwift */; };
 		A20F158226C2872200B91492 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = A20F158126C2872200B91492 /* Starscream */; };
+		B1460A4F2775B78000930486 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1460A4E2775B78000930486 /* IQKeyboardManagerSwift */; };
 		CDB8217F26AAE1E700479753 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = CDB8217E26AAE1E700479753 /* NVActivityIndicatorView */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +21,7 @@
 		48AA797B26273B7600E135A9 /* MarketplaceMonoDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarketplaceMonoDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AA797E26273B7600E135A9 /* MarketplaceMonoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketplaceMonoDylib.h; sourceTree = "<group>"; };
 		48AA797F26273B7600E135A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B175AEC9277365400099A73D /* MarketplaceMonoDylib copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MarketplaceMonoDylib copy-Info.plist"; path = "/Users/aunorafiq/Pandora/Experiment/MonoDylib/MonoDylibProject/Marketplace/MarketplaceMonoDylib copy-Info.plist"; sourceTree = "<absolute>"; };
 		B1E9EF08276B821600309CD9 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		B1E9EF09276B821600309CD9 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
 		B1E9EF0B276B821600309CD9 /* MarketplaceMonoDylib-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MarketplaceMonoDylib-Debug.xcconfig"; sourceTree = "<group>"; };
@@ -34,12 +35,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1460A4F2775B78000930486 /* IQKeyboardManagerSwift in Frameworks */,
 				CDB8217F26AAE1E700479753 /* NVActivityIndicatorView in Frameworks */,
 				4813540E266763D10093335D /* Alamofire in Frameworks */,
 				483A51E8268AA24700816CD3 /* ObjectMapper in Frameworks */,
 				485BCA9926788F3600A8AB7D /* Swinject in Frameworks */,
 				483A51E52689BD7F00816CD3 /* SwiftyJSON in Frameworks */,
-				48AA82DB2627DBB300E135A9 /* IQKeyboardManagerSwift in Frameworks */,
 				A20F158226C2872200B91492 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +62,7 @@
 				48AA797D26273B7600E135A9 /* MarketplaceMonoDylib */,
 				48AA797C26273B7600E135A9 /* Products */,
 				485BCA8E267881FD00A8AB7D /* Frameworks */,
+				B175AEC9277365400099A73D /* MarketplaceMonoDylib copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,13 +134,13 @@
 			);
 			name = MarketplaceMonoDylib;
 			packageProductDependencies = (
-				48AA82DA2627DBB300E135A9 /* IQKeyboardManagerSwift */,
 				4813540D266763D10093335D /* Alamofire */,
 				485BCA9826788F3600A8AB7D /* Swinject */,
 				483A51E42689BD7F00816CD3 /* SwiftyJSON */,
 				483A51E7268AA24700816CD3 /* ObjectMapper */,
 				CDB8217E26AAE1E700479753 /* NVActivityIndicatorView */,
 				A20F158126C2872200B91492 /* Starscream */,
+				B1460A4E2775B78000930486 /* IQKeyboardManagerSwift */,
 			);
 			productName = MarketplaceMonoDylib;
 			productReference = 48AA797B26273B7600E135A9 /* MarketplaceMonoDylib.framework */;
@@ -168,13 +170,13 @@
 			);
 			mainGroup = 48AA797126273B7500E135A9;
 			packageReferences = (
-				48AA82D92627DBB300E135A9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				4813540C266763D10093335D /* XCRemoteSwiftPackageReference "Alamofire" */,
 				485BCA9726788F3600A8AB7D /* XCRemoteSwiftPackageReference "Swinject" */,
 				483A51E32689BD7E00816CD3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				483A51E6268AA24600816CD3 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
 				CDB8217D26AAE1E700479753 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
 				A20F158026C2872200B91492 /* XCRemoteSwiftPackageReference "Starscream" */,
+				B1460A4D2775B78000930486 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 48AA797C26273B7600E135A9 /* Products */;
 			projectDirPath = "";
@@ -374,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.MarketplaceMonoDylib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_REFLECTION_METADATA_LEVEL = all;
@@ -406,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.MarketplaceMonoDylib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
@@ -470,20 +474,20 @@
 				version = 2.7.2;
 			};
 		};
-		48AA82D92627DBB300E135A9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+		A20F158026C2872200B91492 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B1460A4D2775B78000930486 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
 			requirement = {
 				kind = exactVersion;
 				version = 6.5.6;
-			};
-		};
-		A20F158026C2872200B91492 /* XCRemoteSwiftPackageReference "Starscream" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/daltoniam/Starscream";
-			requirement = {
-				kind = exactVersion;
-				version = 3.1.1;
 			};
 		};
 		CDB8217D26AAE1E700479753 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
@@ -517,15 +521,15 @@
 			package = 485BCA9726788F3600A8AB7D /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
 		};
-		48AA82DA2627DBB300E135A9 /* IQKeyboardManagerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48AA82D92627DBB300E135A9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
-		};
 		A20F158126C2872200B91492 /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A20F158026C2872200B91492 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
+		};
+		B1460A4E2775B78000930486 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1460A4D2775B78000930486 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 		CDB8217E26AAE1E700479753 /* NVActivityIndicatorView */ = {
 			isa = XCSwiftPackageProductDependency;

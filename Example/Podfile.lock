@@ -1,50 +1,22 @@
 PODS:
-  - Appboy-iOS-SDK (4.4.1):
-    - Appboy-iOS-SDK/UI (= 4.4.1)
-  - Appboy-iOS-SDK/ContentCards (4.4.1):
-    - Appboy-iOS-SDK/Core
-    - SDWebImage (< 6, >= 5.8.2)
-  - Appboy-iOS-SDK/Core (4.4.1)
-  - Appboy-iOS-SDK/InAppMessage (4.4.1):
-    - Appboy-iOS-SDK/Core
-    - SDWebImage (< 6, >= 5.8.2)
-  - Appboy-iOS-SDK/NewsFeed (4.4.1):
-    - Appboy-iOS-SDK/Core
-    - SDWebImage (< 6, >= 5.8.2)
-  - Appboy-iOS-SDK/UI (4.4.1):
-    - Appboy-iOS-SDK/ContentCards
-    - Appboy-iOS-SDK/Core
-    - Appboy-iOS-SDK/InAppMessage
-    - Appboy-iOS-SDK/NewsFeed
   - MonoDylib/Marketplace (0.1.0)
-  - SDWebImage (5.12.1):
-    - SDWebImage/Core (= 5.12.1)
-  - SDWebImage/Core (5.12.1)
 
 DEPENDENCIES:
-  - Appboy-iOS-SDK (= 4.4.1)
-  - "MonoDylib/Marketplace (from `git@git.gitlab.cloud.bukalapak.io:apps/mono-dylib-binaries.git`, commit `12cec57cd2452e774b3c1fd1ac7dae728d2c78e6`)"
-
-SPEC REPOS:
-  trunk:
-    - Appboy-iOS-SDK
-    - SDWebImage
+  - MonoDylib/Marketplace (from `../`)
 
 EXTERNAL SOURCES:
   MonoDylib:
-    :commit: 12cec57cd2452e774b3c1fd1ac7dae728d2c78e6
-    :git: "git@git.gitlab.cloud.bukalapak.io:apps/mono-dylib-binaries.git"
+    :commit: '5876456'
+    :podspec: "../"
 
 CHECKOUT OPTIONS:
   MonoDylib:
-    :commit: 12cec57cd2452e774b3c1fd1ac7dae728d2c78e6
-    :git: "git@git.gitlab.cloud.bukalapak.io:apps/mono-dylib-binaries.git"
+    :commit: '5876456'
+    :git: "git@github.com:annomusa/MonoDylib.git"
 
 SPEC CHECKSUMS:
-  Appboy-iOS-SDK: 541a839e91a9176ca5c5431375b770a732f8da59
-  MonoDylib: 21bc93236d5e4f946df84f75febd64bd46a86ef5
-  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  MonoDylib: 5601111ae28be53a4fccc319c62622574337866a
 
-PODFILE CHECKSUM: f7727f8fd8cfa63c89b190d26624540dfbb0adfb
+PODFILE CHECKSUM: e358b693712f5c048b3539352b113b0353b3857f
 
 COCOAPODS: 1.11.0
